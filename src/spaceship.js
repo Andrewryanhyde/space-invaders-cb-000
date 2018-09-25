@@ -14,6 +14,9 @@ class Spaceship {
       };
       this.docked = false; 
     }
+    else {
+      this.docked = true;
+    };
 
-  }
-}
+  };
+};
